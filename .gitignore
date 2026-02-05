@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# Test results / coverage
+TestResults/
+coverage/
+coverage*/
+*.opencover.xml
+*.cobertura.xml
+
+# NuGet
+packages/
