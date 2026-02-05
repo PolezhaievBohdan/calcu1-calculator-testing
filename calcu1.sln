@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcu1", "calcu1\calcu1.csproj", "{18343F27-2AF7-48F2-BFD1-97BD56006DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcu1.Tests", "calcu1.Tests\calcu1.Tests.csproj", "{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{18343F27-2AF7-48F2-BFD1-97BD56006DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18343F27-2AF7-48F2-BFD1-97BD56006DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18343F27-2AF7-48F2-BFD1-97BD56006DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A07CD56A-CEB2-49DA-A8F7-CF812E0A65B0}
 	EndGlobalSection
 EndGlobal
