@@ -12,17 +12,19 @@ permissions:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    # ОСЬ ГОЛОВНЕ ВИПРАВЛЕННЯ: Замовляємо сервер на Windows!
+    runs-on: windows-latest
+    
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4 # Оновлено до v4 (виправляє попередження)
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4 # Оновлено до v4 (виправляє попередження)
       with:
         dotnet-version: '8.0.x'
 
