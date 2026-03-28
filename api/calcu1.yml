@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: calcu1
+  commentId: N:calcu1
+  id: calcu1
+  children:
+  - calcu1.Form1
+  - calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: calcu1
+  nameWithType: calcu1
+  fullName: calcu1
+  type: Namespace
+  assemblies:
+  - calcu1
+references:
+- uid: calcu1.Form1
+  commentId: T:calcu1.Form1
+  href: calcu1.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: calcu1.Form1
+- uid: calcu1.MathFunctions
+  commentId: T:calcu1.MathFunctions
+  href: calcu1.MathFunctions.html
+  name: MathFunctions
+  nameWithType: MathFunctions
+  fullName: calcu1.MathFunctions

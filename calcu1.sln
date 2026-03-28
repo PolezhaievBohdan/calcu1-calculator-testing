@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{689B4878-C564-4A62-AE26-01040C258027}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig.txt = .editorconfig.txt
+		docfx.json = docfx.json
+		build_docs.bat = build_docs.bat
+		toc.yml = toc.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{31287E28-C64B-420B-8048-C897A9FB3213}"

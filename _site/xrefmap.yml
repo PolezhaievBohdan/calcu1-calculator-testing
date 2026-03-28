@@ -1,0 +1,200 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: calcu1
+  name: calcu1
+  href: api/calcu1.html
+  commentId: N:calcu1
+  fullName: calcu1
+  nameWithType: calcu1
+- uid: calcu1.Form1
+  name: Form1
+  href: api/calcu1.Form1.html
+  commentId: T:calcu1.Form1
+  fullName: calcu1.Form1
+  nameWithType: Form1
+- uid: calcu1.Form1.#ctor
+  name: Form1()
+  href: api/calcu1.Form1.html#calcu1_Form1__ctor
+  commentId: M:calcu1.Form1.#ctor
+  name.vb: New()
+  fullName: calcu1.Form1.Form1()
+  fullName.vb: calcu1.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: calcu1.Form1.#ctor*
+  name: Form1
+  href: api/calcu1.Form1.html#calcu1_Form1__ctor_
+  commentId: Overload:calcu1.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: calcu1.Form1.Form1
+  fullName.vb: calcu1.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: calcu1.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/calcu1.Form1.html#calcu1_Form1_Dispose_System_Boolean_
+  commentId: M:calcu1.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: calcu1.Form1.Dispose(bool)
+  fullName.vb: calcu1.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: calcu1.Form1.Dispose*
+  name: Dispose
+  href: api/calcu1.Form1.html#calcu1_Form1_Dispose_
+  commentId: Overload:calcu1.Form1.Dispose
+  isSpec: "True"
+  fullName: calcu1.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: calcu1.MathFunctions
+  name: MathFunctions
+  href: api/calcu1.MathFunctions.html
+  commentId: T:calcu1.MathFunctions
+  fullName: calcu1.MathFunctions
+  nameWithType: MathFunctions
+- uid: calcu1.MathFunctions.Add(System.Double,System.Double)
+  name: Add(double, double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Add_System_Double_System_Double_
+  commentId: M:calcu1.MathFunctions.Add(System.Double,System.Double)
+  name.vb: Add(Double, Double)
+  fullName: calcu1.MathFunctions.Add(double, double)
+  fullName.vb: calcu1.MathFunctions.Add(Double, Double)
+  nameWithType: MathFunctions.Add(double, double)
+  nameWithType.vb: MathFunctions.Add(Double, Double)
+- uid: calcu1.MathFunctions.Add*
+  name: Add
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Add_
+  commentId: Overload:calcu1.MathFunctions.Add
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Add
+  nameWithType: MathFunctions.Add
+- uid: calcu1.MathFunctions.Cos(System.Double)
+  name: Cos(double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Cos_System_Double_
+  commentId: M:calcu1.MathFunctions.Cos(System.Double)
+  name.vb: Cos(Double)
+  fullName: calcu1.MathFunctions.Cos(double)
+  fullName.vb: calcu1.MathFunctions.Cos(Double)
+  nameWithType: MathFunctions.Cos(double)
+  nameWithType.vb: MathFunctions.Cos(Double)
+- uid: calcu1.MathFunctions.Cos*
+  name: Cos
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Cos_
+  commentId: Overload:calcu1.MathFunctions.Cos
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Cos
+  nameWithType: MathFunctions.Cos
+- uid: calcu1.MathFunctions.Ctn(System.Double)
+  name: Ctn(double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Ctn_System_Double_
+  commentId: M:calcu1.MathFunctions.Ctn(System.Double)
+  name.vb: Ctn(Double)
+  fullName: calcu1.MathFunctions.Ctn(double)
+  fullName.vb: calcu1.MathFunctions.Ctn(Double)
+  nameWithType: MathFunctions.Ctn(double)
+  nameWithType.vb: MathFunctions.Ctn(Double)
+- uid: calcu1.MathFunctions.Ctn*
+  name: Ctn
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Ctn_
+  commentId: Overload:calcu1.MathFunctions.Ctn
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Ctn
+  nameWithType: MathFunctions.Ctn
+- uid: calcu1.MathFunctions.Divide(System.Double,System.Double)
+  name: Divide(double, double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Divide_System_Double_System_Double_
+  commentId: M:calcu1.MathFunctions.Divide(System.Double,System.Double)
+  name.vb: Divide(Double, Double)
+  fullName: calcu1.MathFunctions.Divide(double, double)
+  fullName.vb: calcu1.MathFunctions.Divide(Double, Double)
+  nameWithType: MathFunctions.Divide(double, double)
+  nameWithType.vb: MathFunctions.Divide(Double, Double)
+- uid: calcu1.MathFunctions.Divide*
+  name: Divide
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Divide_
+  commentId: Overload:calcu1.MathFunctions.Divide
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Divide
+  nameWithType: MathFunctions.Divide
+- uid: calcu1.MathFunctions.Inverse(System.Double)
+  name: Inverse(double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Inverse_System_Double_
+  commentId: M:calcu1.MathFunctions.Inverse(System.Double)
+  name.vb: Inverse(Double)
+  fullName: calcu1.MathFunctions.Inverse(double)
+  fullName.vb: calcu1.MathFunctions.Inverse(Double)
+  nameWithType: MathFunctions.Inverse(double)
+  nameWithType.vb: MathFunctions.Inverse(Double)
+- uid: calcu1.MathFunctions.Inverse*
+  name: Inverse
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Inverse_
+  commentId: Overload:calcu1.MathFunctions.Inverse
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Inverse
+  nameWithType: MathFunctions.Inverse
+- uid: calcu1.MathFunctions.Multiply(System.Double,System.Double)
+  name: Multiply(double, double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Multiply_System_Double_System_Double_
+  commentId: M:calcu1.MathFunctions.Multiply(System.Double,System.Double)
+  name.vb: Multiply(Double, Double)
+  fullName: calcu1.MathFunctions.Multiply(double, double)
+  fullName.vb: calcu1.MathFunctions.Multiply(Double, Double)
+  nameWithType: MathFunctions.Multiply(double, double)
+  nameWithType.vb: MathFunctions.Multiply(Double, Double)
+- uid: calcu1.MathFunctions.Multiply*
+  name: Multiply
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Multiply_
+  commentId: Overload:calcu1.MathFunctions.Multiply
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Multiply
+  nameWithType: MathFunctions.Multiply
+- uid: calcu1.MathFunctions.Sin(System.Double)
+  name: Sin(double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Sin_System_Double_
+  commentId: M:calcu1.MathFunctions.Sin(System.Double)
+  name.vb: Sin(Double)
+  fullName: calcu1.MathFunctions.Sin(double)
+  fullName.vb: calcu1.MathFunctions.Sin(Double)
+  nameWithType: MathFunctions.Sin(double)
+  nameWithType.vb: MathFunctions.Sin(Double)
+- uid: calcu1.MathFunctions.Sin*
+  name: Sin
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Sin_
+  commentId: Overload:calcu1.MathFunctions.Sin
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Sin
+  nameWithType: MathFunctions.Sin
+- uid: calcu1.MathFunctions.Subtract(System.Double,System.Double)
+  name: Subtract(double, double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Subtract_System_Double_System_Double_
+  commentId: M:calcu1.MathFunctions.Subtract(System.Double,System.Double)
+  name.vb: Subtract(Double, Double)
+  fullName: calcu1.MathFunctions.Subtract(double, double)
+  fullName.vb: calcu1.MathFunctions.Subtract(Double, Double)
+  nameWithType: MathFunctions.Subtract(double, double)
+  nameWithType.vb: MathFunctions.Subtract(Double, Double)
+- uid: calcu1.MathFunctions.Subtract*
+  name: Subtract
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Subtract_
+  commentId: Overload:calcu1.MathFunctions.Subtract
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Subtract
+  nameWithType: MathFunctions.Subtract
+- uid: calcu1.MathFunctions.Tan(System.Double)
+  name: Tan(double)
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Tan_System_Double_
+  commentId: M:calcu1.MathFunctions.Tan(System.Double)
+  name.vb: Tan(Double)
+  fullName: calcu1.MathFunctions.Tan(double)
+  fullName.vb: calcu1.MathFunctions.Tan(Double)
+  nameWithType: MathFunctions.Tan(double)
+  nameWithType.vb: MathFunctions.Tan(Double)
+- uid: calcu1.MathFunctions.Tan*
+  name: Tan
+  href: api/calcu1.MathFunctions.html#calcu1_MathFunctions_Tan_
+  commentId: Overload:calcu1.MathFunctions.Tan
+  isSpec: "True"
+  fullName: calcu1.MathFunctions.Tan
+  nameWithType: MathFunctions.Tan

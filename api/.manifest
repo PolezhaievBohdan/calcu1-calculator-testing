@@ -1,0 +1,16 @@
+{
+  "calcu1": "calcu1.yml",
+  "calcu1.Form1": "calcu1.Form1.yml",
+  "calcu1.Form1.#ctor": "calcu1.Form1.yml",
+  "calcu1.Form1.Dispose(System.Boolean)": "calcu1.Form1.yml",
+  "calcu1.MathFunctions": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Add(System.Double,System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Cos(System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Ctn(System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Divide(System.Double,System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Inverse(System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Multiply(System.Double,System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Sin(System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Subtract(System.Double,System.Double)": "calcu1.MathFunctions.yml",
+  "calcu1.MathFunctions.Tan(System.Double)": "calcu1.MathFunctions.yml"
+}

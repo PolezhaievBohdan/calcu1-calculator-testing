@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Calcu1 Calculator (WinForms) </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Calcu1 Calculator (WinForms) ">
+    
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="calcu1-calculator-winforms">Calcu1 Calculator (WinForms)</h1>
+
+<p>Десктопний калькулятор на C# (WinForms, .NET Framework). Має 2 режими:</p>
+<ul>
+<li>&quot;Дві змінних&quot;: +, -, *, /</li>
+<li>&quot;Одна змінна&quot;: A^2, 1/A, sin, cos, tan, ctn
+Також є очищення (C) і пам’ять (-&gt;M, M-&gt;) та кнопка &quot;Мій інтерфейс&quot;.</li>
+</ul>
+<h2 id="як-запустити">Як запустити</h2>
+<ol>
+<li>Відкрити <code>calcu1.sln</code> у Visual Studio</li>
+<li>Натиснути Start (F5)</li>
+</ol>
+<h2 id="як-запустити-тести">Як запустити тести</h2>
+<ol>
+<li>Відкрити рішення у Visual Studio</li>
+<li>Test → Run All Tests</li>
+</ol>
+<h2 id="структура-проєкту">Структура проєкту</h2>
+<ul>
+<li><code>calcu1.sln</code> — solution</li>
+<li><code>calcu1/</code> — основна WinForms програма
+<ul>
+<li><code>Form1.cs</code> — логіка інтерфейсу (кнопки)</li>
+<li><code>Form1.Designer.cs</code> — розмітка форми (UI)</li>
+<li><code>MathFuctions.cs</code> — логіка обчислень (calc)</li>
+<li><code>Program.cs</code> — запуск програми</li>
+</ul>
+</li>
+<li><code>calcu1.Tests/</code> — unit-тести (буде додано)</li>
+<li><code>.github/workflows/</code> — автозапуск тестів на GitHub (буде додано)</li>
+</ul>
+<h2 id="правила-документування-коду">Правила документування коду</h2>
+<p>Для підтримки високої якості коду в цьому проєкті використовуються XML-коментарі C#.
+Будь ласка, дотримуйтесь наступних правил при внесенні змін:</p>
+<ol>
+<li><strong>Усі публічні класи та методи</strong> повинні мати як мінімум тег <code>&lt;summary&gt;</code>.</li>
+<li>Якщо метод приймає параметри, обов'язково опишіть їх за допомогою тегів <code>&lt;param name=&quot;...&quot;&gt;</code>.</li>
+<li>Якщо метод повертає значення, опишіть його в тезі <code>&lt;returns&gt;</code>.</li>
+<li>Якщо метод може викинути виняток (Exception), обов'язково задокументуйте це за допомогою тегу <code>&lt;exception cref=&quot;...&quot;&gt;</code>.</li>
+<li>Після написання коду переконайтеся, що Visual Studio не видає попереджень щодо відсутньої XML-документації.</li>
+</ol>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/PolezhaievBohdan/calcu1-calculator-testing/blob/main/README.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

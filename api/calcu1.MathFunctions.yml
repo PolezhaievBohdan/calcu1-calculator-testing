@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: calcu1.MathFunctions
+  commentId: T:calcu1.MathFunctions
+  id: MathFunctions
+  parent: calcu1
+  children:
+  - calcu1.MathFunctions.Add(System.Double,System.Double)
+  - calcu1.MathFunctions.Cos(System.Double)
+  - calcu1.MathFunctions.Ctn(System.Double)
+  - calcu1.MathFunctions.Divide(System.Double,System.Double)
+  - calcu1.MathFunctions.Inverse(System.Double)
+  - calcu1.MathFunctions.Multiply(System.Double,System.Double)
+  - calcu1.MathFunctions.Sin(System.Double)
+  - calcu1.MathFunctions.Subtract(System.Double,System.Double)
+  - calcu1.MathFunctions.Tan(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: MathFunctions
+  nameWithType: MathFunctions
+  fullName: calcu1.MathFunctions
+  type: Class
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: MathFunctions
+    path: calcu1/MathFuctions.cs
+    startLine: 7
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Надає набір статичних методів для виконання базових математичних та тригонометричних операцій.
+  example: []
+  syntax:
+    content: public class MathFunctions
+    content.vb: Public Class MathFunctions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: calcu1.MathFunctions.Add(System.Double,System.Double)
+  commentId: M:calcu1.MathFunctions.Add(System.Double,System.Double)
+  id: Add(System.Double,System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Add(double, double)
+  nameWithType: MathFunctions.Add(double, double)
+  fullName: calcu1.MathFunctions.Add(double, double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Add
+    path: calcu1/MathFuctions.cs
+    startLine: 15
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Виконує додавання двох чисел.
+  example: []
+  syntax:
+    content: public static double Add(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Перший доданок.
+    - id: b
+      type: System.Double
+      description: Другий доданок.
+    return:
+      type: System.Double
+      description: Сума чисел a та b.
+    content.vb: Public Shared Function Add(a As Double, b As Double) As Double
+  overload: calcu1.MathFunctions.Add*
+  nameWithType.vb: MathFunctions.Add(Double, Double)
+  fullName.vb: calcu1.MathFunctions.Add(Double, Double)
+  name.vb: Add(Double, Double)
+- uid: calcu1.MathFunctions.Subtract(System.Double,System.Double)
+  commentId: M:calcu1.MathFunctions.Subtract(System.Double,System.Double)
+  id: Subtract(System.Double,System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Subtract(double, double)
+  nameWithType: MathFunctions.Subtract(double, double)
+  fullName: calcu1.MathFunctions.Subtract(double, double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Subtract
+    path: calcu1/MathFuctions.cs
+    startLine: 26
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Виконує віднімання другого числа від першого.
+  example: []
+  syntax:
+    content: public static double Subtract(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Зменшуване.
+    - id: b
+      type: System.Double
+      description: Від'ємник.
+    return:
+      type: System.Double
+      description: Різниця чисел a та b.
+    content.vb: Public Shared Function Subtract(a As Double, b As Double) As Double
+  overload: calcu1.MathFunctions.Subtract*
+  nameWithType.vb: MathFunctions.Subtract(Double, Double)
+  fullName.vb: calcu1.MathFunctions.Subtract(Double, Double)
+  name.vb: Subtract(Double, Double)
+- uid: calcu1.MathFunctions.Multiply(System.Double,System.Double)
+  commentId: M:calcu1.MathFunctions.Multiply(System.Double,System.Double)
+  id: Multiply(System.Double,System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Multiply(double, double)
+  nameWithType: MathFunctions.Multiply(double, double)
+  fullName: calcu1.MathFunctions.Multiply(double, double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Multiply
+    path: calcu1/MathFuctions.cs
+    startLine: 37
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Виконує множення двох чисел.
+  example: []
+  syntax:
+    content: public static double Multiply(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Перший множник.
+    - id: b
+      type: System.Double
+      description: Другий множник.
+    return:
+      type: System.Double
+      description: Добуток чисел a та b.
+    content.vb: Public Shared Function Multiply(a As Double, b As Double) As Double
+  overload: calcu1.MathFunctions.Multiply*
+  nameWithType.vb: MathFunctions.Multiply(Double, Double)
+  fullName.vb: calcu1.MathFunctions.Multiply(Double, Double)
+  name.vb: Multiply(Double, Double)
+- uid: calcu1.MathFunctions.Divide(System.Double,System.Double)
+  commentId: M:calcu1.MathFunctions.Divide(System.Double,System.Double)
+  id: Divide(System.Double,System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Divide(double, double)
+  nameWithType: MathFunctions.Divide(double, double)
+  fullName: calcu1.MathFunctions.Divide(double, double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Divide
+    path: calcu1/MathFuctions.cs
+    startLine: 49
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Виконує ділення першого числа на друге.
+  example: []
+  syntax:
+    content: public static double Divide(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Ділене.
+    - id: b
+      type: System.Double
+      description: Дільник.
+    return:
+      type: System.Double
+      description: Частка від ділення a на b.
+    content.vb: Public Shared Function Divide(a As Double, b As Double) As Double
+  overload: calcu1.MathFunctions.Divide*
+  exceptions:
+  - type: System.DivideByZeroException
+    commentId: T:System.DivideByZeroException
+    description: Викидається, якщо дільник (b) дорівнює нулю.
+  nameWithType.vb: MathFunctions.Divide(Double, Double)
+  fullName.vb: calcu1.MathFunctions.Divide(Double, Double)
+  name.vb: Divide(Double, Double)
+- uid: calcu1.MathFunctions.Inverse(System.Double)
+  commentId: M:calcu1.MathFunctions.Inverse(System.Double)
+  id: Inverse(System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Inverse(double)
+  nameWithType: MathFunctions.Inverse(double)
+  fullName: calcu1.MathFunctions.Inverse(double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Inverse
+    path: calcu1/MathFuctions.cs
+    startLine: 63
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Обчислює обернене значення до заданого числа (1/x).
+  example: []
+  syntax:
+    content: public static double Inverse(double a)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Число, для якого обчислюється обернене значення.
+    return:
+      type: System.Double
+      description: Обернене значення (1/a).
+    content.vb: Public Shared Function Inverse(a As Double) As Double
+  overload: calcu1.MathFunctions.Inverse*
+  exceptions:
+  - type: System.DivideByZeroException
+    commentId: T:System.DivideByZeroException
+    description: Викидається, якщо вхідне число дорівнює нулю.
+  nameWithType.vb: MathFunctions.Inverse(Double)
+  fullName.vb: calcu1.MathFunctions.Inverse(Double)
+  name.vb: Inverse(Double)
+- uid: calcu1.MathFunctions.Sin(System.Double)
+  commentId: M:calcu1.MathFunctions.Sin(System.Double)
+  id: Sin(System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Sin(double)
+  nameWithType: MathFunctions.Sin(double)
+  fullName: calcu1.MathFunctions.Sin(double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Sin
+    path: calcu1/MathFuctions.cs
+    startLine: 76
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Обчислює синус кута.
+  example: []
+  syntax:
+    content: public static double Sin(double a)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Кут у радіанах.
+    return:
+      type: System.Double
+      description: Синус кута a.
+    content.vb: Public Shared Function Sin(a As Double) As Double
+  overload: calcu1.MathFunctions.Sin*
+  nameWithType.vb: MathFunctions.Sin(Double)
+  fullName.vb: calcu1.MathFunctions.Sin(Double)
+  name.vb: Sin(Double)
+- uid: calcu1.MathFunctions.Cos(System.Double)
+  commentId: M:calcu1.MathFunctions.Cos(System.Double)
+  id: Cos(System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Cos(double)
+  nameWithType: MathFunctions.Cos(double)
+  fullName: calcu1.MathFunctions.Cos(double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Cos
+    path: calcu1/MathFuctions.cs
+    startLine: 86
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Обчислює косинус кута.
+  example: []
+  syntax:
+    content: public static double Cos(double a)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Кут у радіанах.
+    return:
+      type: System.Double
+      description: Косинус кута a.
+    content.vb: Public Shared Function Cos(a As Double) As Double
+  overload: calcu1.MathFunctions.Cos*
+  nameWithType.vb: MathFunctions.Cos(Double)
+  fullName.vb: calcu1.MathFunctions.Cos(Double)
+  name.vb: Cos(Double)
+- uid: calcu1.MathFunctions.Tan(System.Double)
+  commentId: M:calcu1.MathFunctions.Tan(System.Double)
+  id: Tan(System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Tan(double)
+  nameWithType: MathFunctions.Tan(double)
+  fullName: calcu1.MathFunctions.Tan(double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Tan
+    path: calcu1/MathFuctions.cs
+    startLine: 96
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Обчислює тангенс кута.
+  example: []
+  syntax:
+    content: public static double Tan(double a)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Кут у радіанах.
+    return:
+      type: System.Double
+      description: Тангенс кута a.
+    content.vb: Public Shared Function Tan(a As Double) As Double
+  overload: calcu1.MathFunctions.Tan*
+  nameWithType.vb: MathFunctions.Tan(Double)
+  fullName.vb: calcu1.MathFunctions.Tan(Double)
+  name.vb: Tan(Double)
+- uid: calcu1.MathFunctions.Ctn(System.Double)
+  commentId: M:calcu1.MathFunctions.Ctn(System.Double)
+  id: Ctn(System.Double)
+  parent: calcu1.MathFunctions
+  langs:
+  - csharp
+  - vb
+  name: Ctn(double)
+  nameWithType: MathFunctions.Ctn(double)
+  fullName: calcu1.MathFunctions.Ctn(double)
+  type: Method
+  source:
+    remote:
+      path: calcu1/MathFuctions.cs
+      branch: main
+      repo: https://github.com/PolezhaievBohdan/calcu1-calculator-testing.git
+    id: Ctn
+    path: calcu1/MathFuctions.cs
+    startLine: 106
+  assemblies:
+  - calcu1
+  namespace: calcu1
+  summary: Обчислює котангенс кута.
+  example: []
+  syntax:
+    content: public static double Ctn(double a)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Кут у радіанах.
+    return:
+      type: System.Double
+      description: Котангенс кута a.
+    content.vb: Public Shared Function Ctn(a As Double) As Double
+  overload: calcu1.MathFunctions.Ctn*
+  nameWithType.vb: MathFunctions.Ctn(Double)
+  fullName.vb: calcu1.MathFunctions.Ctn(Double)
+  name.vb: Ctn(Double)
+references:
+- uid: calcu1
+  commentId: N:calcu1
+  href: calcu1.html
+  name: calcu1
+  nameWithType: calcu1
+  fullName: calcu1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: calcu1.MathFunctions.Add*
+  commentId: Overload:calcu1.MathFunctions.Add
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Add_System_Double_System_Double_
+  name: Add
+  nameWithType: MathFunctions.Add
+  fullName: calcu1.MathFunctions.Add
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: calcu1.MathFunctions.Subtract*
+  commentId: Overload:calcu1.MathFunctions.Subtract
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Subtract_System_Double_System_Double_
+  name: Subtract
+  nameWithType: MathFunctions.Subtract
+  fullName: calcu1.MathFunctions.Subtract
+- uid: calcu1.MathFunctions.Multiply*
+  commentId: Overload:calcu1.MathFunctions.Multiply
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Multiply_System_Double_System_Double_
+  name: Multiply
+  nameWithType: MathFunctions.Multiply
+  fullName: calcu1.MathFunctions.Multiply
+- uid: System.DivideByZeroException
+  commentId: T:System.DivideByZeroException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception
+  name: DivideByZeroException
+  nameWithType: DivideByZeroException
+  fullName: System.DivideByZeroException
+- uid: calcu1.MathFunctions.Divide*
+  commentId: Overload:calcu1.MathFunctions.Divide
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Divide_System_Double_System_Double_
+  name: Divide
+  nameWithType: MathFunctions.Divide
+  fullName: calcu1.MathFunctions.Divide
+- uid: calcu1.MathFunctions.Inverse*
+  commentId: Overload:calcu1.MathFunctions.Inverse
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Inverse_System_Double_
+  name: Inverse
+  nameWithType: MathFunctions.Inverse
+  fullName: calcu1.MathFunctions.Inverse
+- uid: calcu1.MathFunctions.Sin*
+  commentId: Overload:calcu1.MathFunctions.Sin
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Sin_System_Double_
+  name: Sin
+  nameWithType: MathFunctions.Sin
+  fullName: calcu1.MathFunctions.Sin
+- uid: calcu1.MathFunctions.Cos*
+  commentId: Overload:calcu1.MathFunctions.Cos
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Cos_System_Double_
+  name: Cos
+  nameWithType: MathFunctions.Cos
+  fullName: calcu1.MathFunctions.Cos
+- uid: calcu1.MathFunctions.Tan*
+  commentId: Overload:calcu1.MathFunctions.Tan
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Tan_System_Double_
+  name: Tan
+  nameWithType: MathFunctions.Tan
+  fullName: calcu1.MathFunctions.Tan
+- uid: calcu1.MathFunctions.Ctn*
+  commentId: Overload:calcu1.MathFunctions.Ctn
+  href: calcu1.MathFunctions.html#calcu1_MathFunctions_Ctn_System_Double_
+  name: Ctn
+  nameWithType: MathFunctions.Ctn
+  fullName: calcu1.MathFunctions.Ctn

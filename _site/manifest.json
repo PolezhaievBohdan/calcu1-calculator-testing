@@ -1,0 +1,89 @@
+{
+  "source_base_path": "C:/Users/polez/OneDrive/Documents/GitHub/calcu1-calculator-testing",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/calcu1.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/calcu1.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "calcu1.Form1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/calcu1.MathFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/calcu1.MathFunctions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "calcu1.MathFunctions",
+      "Summary": "<p sourcefile=\"api/calcu1.MathFunctions.yml\" sourcestartlinenumber=\"1\">Надає набір статичних методів для виконання базових математичних та тригонометричних операцій.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/calcu1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/calcu1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "calcu1",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
