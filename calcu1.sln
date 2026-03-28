@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcu1", "calcu1\calcu1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcu1.Tests", "calcu1.Tests\calcu1.Tests.csproj", "{EE184970-07AF-4DFD-8BCE-F37AB60DCA57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{689B4878-C564-4A62-AE26-01040C258027}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig.txt = .editorconfig.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{31287E28-C64B-420B-8048-C897A9FB3213}"
+	ProjectSection(SolutionItems) = preProject
+		linting.md = linting.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
