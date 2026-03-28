@@ -1,21 +1,42 @@
-{
-	"metadata": [
-		{
-			"src": [
-				{
-					"files": [ "calcu1/calcu1.csproj" ],
-					"src": "."
-				}
-			],
-			"dest": "api"
-		}
-	],
-	"build": {
-		"content": [
-			{ "files": [ "api/**.yml", "api/index.md" ] },
-			{ "files": [ "README.md", "toc.yml" ] }
-		],
-		"dest": "_site",
-		"template": [ "default" ]
-	}
-}
+name: Generate and Publish Documentation
+
+on:
+  push:
+    branches: [ "main", "master" ]
+
+# Надаємо права для публікації на GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Install DocFX
+      run: dotnet tool install -g docfx
+
+    - name: Build Documentation
+      run: docfx docfx.json
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '_site'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
